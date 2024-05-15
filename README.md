@@ -14,4 +14,4 @@ This repository contains different scenarios for bypassing 403s leverage path no
 * Problem: Nginx has a rule to deny access to `/admin` and blocks you
 * Bypass: E.g. visit `GET /admin\xa0` (note that you actually need to send the hex character, not the string `\xa0`)
 
-![Alt text](flask/bypass.png)
+![Image containing the Flask Bypass Request and Response](flask/bypass.png)
