@@ -19,7 +19,7 @@ This repository contains different scenarios for bypassing 403s leverage path no
     - `\xa0`
 * Bypass: Visit `GET /admin\x85` or `GET /admin\xa0` (note that you actually need to send the hex character, not e.g. the string `\x85`)
 
-![Image containing the Flask Bypass Request and Response](flask/bypass.png)
+![Image containing the Flask Bypass Request and Response](python-flask/bypass.png)
 
 ### Node.js (Express) - Not Working :(
 
