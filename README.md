@@ -34,7 +34,9 @@ This repository contains different scenarios for bypassing 403s leverage path no
     - `GET /admin;` also works here
     - Moreover, `GET /admin\x09` (fancy hex character again!) works
 
-### Golang (Gin) - No Known Ways :|
+### Golang (Gin) - No Known Ways (AFAIK) :|
 
 * I couldn't find any research about this online
 * Also, I wasn't able to find any ways to bypass this myself
+
+### Ruby (Sinatra) - No Known Ways (AFAIK) :|
