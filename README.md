@@ -33,3 +33,8 @@ This repository contains different scenarios for bypassing 403s leverage path no
 * Working bypasses on `nginx@1.20.2`
     - `GET /admin;` also works here
     - Moreover, `GET /admin\x09` (fancy hex character again!) works
+
+### Golang (Gin) - No Known Ways :|
+
+* I couldn't find any research about this online
+* Also, I wasn't able to find any ways to bypass this myself
