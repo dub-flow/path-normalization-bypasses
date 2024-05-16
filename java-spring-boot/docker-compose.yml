@@ -10,7 +10,7 @@ services:
       - app-network
 
   nginx:
-    image: nginx:alpine
+    image: nginx
     container_name: nginx_spring
     ports:
       - "80:80"
