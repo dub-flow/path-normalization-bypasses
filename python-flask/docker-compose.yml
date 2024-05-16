@@ -11,7 +11,7 @@ services:
       - .:/app  # Mount your local directory into the container so that live changes are detected
 
   nginx:
-    image: nginx
+    image: nginx_flask
     ports:
       - "80:80"
     volumes:

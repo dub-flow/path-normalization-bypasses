@@ -12,7 +12,7 @@ services:
 
   nginx:
     image: nginx
-    container_name: nginx_reverse_proxy
+    container_name: nginx_node
     ports:
       - "80:80"
     volumes:

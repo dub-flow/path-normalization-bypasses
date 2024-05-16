@@ -11,7 +11,7 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: nginx_reverse_proxy
+    container_name: nginx_spring
     ports:
       - "80:80"
     volumes:
