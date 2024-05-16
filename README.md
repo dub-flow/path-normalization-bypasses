@@ -28,3 +28,8 @@ This repository contains different scenarios for bypassing 403s leverage path no
 
 ### Java (Spring Boot) 
 
+* Working bypass on `nginx@1.25.5`: We can access the `/admin` page by visiting `GET /admin;` (no fancy hex here, literally just a `;`)
+
+* Working bypasses on `nginx@1.20.2`
+    - `GET /admin;` also works here
+    - Moreover, `GET /admin\x09` (fancy hex character again!) works
